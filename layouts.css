@@ -95,7 +95,7 @@ span {
 }
 .btn:hover {
 	border: solid 2px indianred;
-	padding: 2px;
+	color:grey;
 	border-radius: 5px;
 }
 .jumbotron {
