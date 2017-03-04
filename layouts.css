@@ -22,6 +22,11 @@ h3 {
   padding: 5px;
   width: auto;
 }*/
+.button {
+	color: white;
+	background-color: indianred;
+	border: solid 1px indianred;
+}
 label {
 	margin: 5px;
 	padding: 2px;
