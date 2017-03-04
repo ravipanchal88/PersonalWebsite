@@ -18,10 +18,6 @@ h3 {
 	font-size: 20px;
 	color: white;
 }
-/*td {
-  padding: 5px;
-  width: auto;
-}*/
 .button {
 	color: white;
 	background-color: indianred;
@@ -54,14 +50,11 @@ span {
 }
 .navheader {
 	background-color: #333333;
-	/*border:solid 1px indianred;*/
 }
 .logo {
 	float: left;
 	margin-left: 15%;
 	width: auto;
-	/*border:solid 1px indianred;*/
-	
 }
 .navbar {
 	position: relative;
@@ -69,15 +62,10 @@ span {
 	display: inline-block;
 	background-color: #333333;
 	float: right;
-	/*border:solid 1px indianred;*/
-	
 }
 .profilepic {
-	/*width: 375px;
-	height: 375px;*/
 	float: right;
 	margin-right: 20%;
-	/*margin-top: 2px;*/
 	border: solid;
 	border-width: 10px;
 	border-color: white;
@@ -221,17 +209,15 @@ margin-top: 50%;
 }
 
 /*Media Queries*/
-@media ( max-width: 750px ){
+@media ( max-width: 750px; ) {
 	.img{
 		width: 100%;
 		height: auto;
 	}
-
-	
 }
 
 @media ( max-width: 1125px; ) {
 	.profilepic {
 	 	display: none;
-	 }
+	}
 }
