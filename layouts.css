@@ -1,0 +1,232 @@
+p {
+	display: inline-block;
+	padding: 5px 5px 0px 5px;
+	margin: 5px;
+	font-family: arial;
+	font-style: italic;
+	color: white;
+	font-size: small;
+}
+h2 {
+	font-family: Calibri;
+	font-size: 40px;
+	color: white;
+	padding: 5px;
+}
+h3 {
+	font-family: Calibri;
+	font-size: 20px;
+	color: white;
+}
+/*td {
+  padding: 5px;
+  width: auto;
+}*/
+label {
+	margin: 5px;
+	padding: 2px;
+	color: white;
+	font-family: calibri;
+	font-size: large;
+}
+input {
+	margin: 5px;
+	padding: 2px;
+	width: 250px;
+	height: 25px;
+	border-radius: 5px;
+	border-width: 1px;
+}
+textarea {
+	margin: 5px;
+	padding: 2px;
+	width: 250px;
+	border-radius: 5px;
+	border-width: 1px;
+}
+span {
+	color: white;
+}
+.navheader {
+	background-color: #333333;
+	/*border:solid 1px indianred;*/
+}
+.logo {
+	float: left;
+	margin-left: 15%;
+	width: auto;
+	/*border:solid 1px indianred;*/
+	
+}
+.navbar {
+	position: relative;
+	top: 15px;
+	display: inline-block;
+	background-color: #333333;
+	float: right;
+	/*border:solid 1px indianred;*/
+	
+}
+.profilepic {
+	/*width: 375px;
+	height: 375px;*/
+	float: right;
+	margin-right: 20%;
+	/*margin-top: 2px;*/
+	border: solid;
+	border-width: 10px;
+	border-color: white;
+}
+.btn {
+	display: inline-block;
+	background: #333333;
+	color: white;
+	border: none;
+	font-size: large;
+	float: left;
+	font-family: calibri;
+	margin: 15px;
+	text-decoration: unset;
+}
+.btn:hover {
+	border: solid 2px indianred;
+	padding: 2px;
+	border-radius: 5px;
+}
+.jumbotron {
+	display: inline-block;
+	background-color: #333333;
+	background-image: url("jumbotronbk.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+	width: 100%;
+	height: 450px;
+	margin: none;
+}
+.icon {
+	font-size: 50px;
+	color: white;
+}
+.intro {
+	display: inline-block;
+	background-color: transparent;
+	font-family: verdana;
+	font-size: large;
+	color: indianred;
+	margin-left: 15%;
+	margin-top: 10px;
+	float: left;
+	width: 350px;
+}
+.tab1 {
+margin-top: 50%;
+}
+.maincontent {
+	display: inline-block;
+	background-color: lightgrey;
+	margin: 0px 20%;
+	height: 550px;
+}
+.footer {
+	clear: both;
+	background-color: #333333;
+	font-family: calibri;
+	width: 100%;
+	height: auto;
+    margin-top: 25px;
+    margin-top: 25px;
+	padding-top: 2px;
+	text-align: center;
+	color: white;
+	position: relative;
+}
+.col1 {
+	display: inline-block;
+    background-color: #666;
+    float: left;
+    margin: 25px 2.5%;
+	height: auto;
+}
+.links {
+	color: indianred;
+	font-family: verdana;
+	text-decoration: underline;
+}
+.box2 {
+	display: block;
+	border: solid indianred 2px;
+	padding: 2px;
+	margin: 5px 20%;
+	background-color: indianred;
+	border-radius: 5px;
+}
+.box1 {
+	margin: 5px 16.66% ;
+	border: solid indianred 2px;
+	padding: 2px;
+	color: black;
+	background-color: indianred;
+	border-radius: 5px;
+}
+.col {
+	display: block;
+    float: left;
+    margin-top: 25px;
+	margin-left: 2.5%;
+	margin-bottom: 25px;
+}
+.box3 {
+	display: block;
+	padding: 2px;
+	margin: 5px 25%;
+	background-color: transparent;
+	height: auto;
+}
+.img {
+	display: inline-block;
+	margin: 2%;
+	padding: 2%;
+	width: 250px;
+	height: 250px;
+	border: solid 2px grey;
+}
+.tile {
+ margin:5px 10%;
+}
+.contactme {
+	display: inline-block;
+	margin: 25px 15px;
+	padding: 15px 15px;
+	float: left;
+}
+.contactbox {
+	display: inline-block;
+	padding: 2px;
+	margin: 5% 0px;
+	background-color: grey;
+	width: 60%;
+	border-radius: 25px
+}
+#contactheader {
+	display: block;
+	color: white;
+	text-align: center;
+	font-family: calibri;
+}
+
+/*Media Queries*/
+@media ( max-width: 750px ){
+	.img{
+		width: 100%;
+		height: auto;
+	}
+
+	
+}
+
+@media ( max-width: 1125px; ) {
+	.profilepic {
+	 	display: none;
+	 }
+}
