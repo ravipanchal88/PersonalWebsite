@@ -188,10 +188,13 @@ margin-top: 50%;
  margin:5px 10%;
 }
 .contactme {
-	display: inline-block;
-	margin: 25px 15px;
-	padding: 15px 15px;
+	display: block;
+	margin: 1.5px 1.5px;
+	padding: 1.5px 1.5px;*/
 	float: left;
+	color: white;
+	text-align: center;
+
 }
 .contactbox {
 	display: inline-block;
@@ -199,7 +202,7 @@ margin-top: 50%;
 	margin: 5% 0px;
 	background-color: grey;
 	width: 60%;
-	border-radius: 25px
+	border-radius: 25px;
 }
 #contactheader {
 	display: block;
@@ -209,11 +212,40 @@ margin-top: 50%;
 }
 
 /*Media Queries*/
-@media ( max-width: 750px; ) {
+@media ( max-width: 750px;) {
 	.img{
 		width: 100%;
 		height: auto;
 	}
+
+	.contactme {
+	/*display: inline-block;
+	margin: 25px 15px;
+	padding: 15px 15px;
+	float: left;*/
+	width: 100%;
+	}
+.contactbox {
+	/*display: inline-block;
+	padding: 2px;
+	margin: 5% 0px;
+	background-color: grey;*/
+	width: 100%;
+	}
+#contactheader {
+	/*display: block;
+	color: white;
+	text-align: center;
+	font-family: calibri;*/
+	width: 100%;
+    }
+label{
+	width: auto;
+}
+input{
+	display: block;
+	width: auto;
+}
 }
 
 @media ( max-width: 1125px; ) {
