@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ravi Panchal</title>
+		
+		<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+		<link rel="stylesheet" href="layouts.css"> 
+
+		<script type="text/javascript">
+			
+			function showpassword(eyeslash)
+			{
+				if (document.getElementById("txt_password").type =="password"){
+					document.getElementById("txt_password").type = "text";
+					document.getElementById("eyeslash").style.Color="red";
+					//document.ge = "red";
+					
+				}
+				else {
+					document.getElementById("txt_password").type = "password";
+				}
+			}
+
+			function changetxtColor(txtbox)
+			{
+			  txtbox.style.backgroundColor = "#ffffaa"; 
+			}
+
+		</script>
+	</head>
+	<body>
+	<div class="loginmaincontainer">
+		<div class="container-fluid logincontainer">
+			<div class="loginmainbox">
+			   <!-- <div class="loginbox loginavatar">
+				    <img src="profilepic.jpg" class="loginavatar">
+				</div> -->
+				<div class="loginbox">
+				 <img src="logo.png">
+				    <input id="txt_username" type="text" placeholder="Enter Email Address" required onclick="changetxtColor(this);">
+				     <div class="passblock">
+				     <input id="txt_password" type="password" placeholder="Enter password" required onclick="changetxtColor(this);">
+				     <i id="eyeslash" class="fa fa-eye-slash" aria-hidden="true" onclick="showpassword(this);"></i> 
+				     </div>
+
+				     <input type="checkbox" checked="checked">Remember Me</input>
+				     <button class="btn loginbutton">Sign In</button> 
+				     <a href="">Forgot Password</a></label>
+				</div>
+				<div class="loginbox2">    
+		 			<label>First time user?<a href=""> <span>Sign Up </span></a></label>
+				</div>
+			</div>
+            <div>
+			  <img src="shot.jpg" style="width: 500px; height: 500px;" >
+			</div>
+		</div>	
+	</div>
+	</body>
+</html>

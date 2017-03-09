@@ -26,7 +26,7 @@ h3 {
 label {
 	margin: 5px;
 	padding: 2px;
-	color: white;
+	color: grey;
 	font-family: calibri;
 	font-size: large;
 }
@@ -46,7 +46,8 @@ textarea {
 	border-width: 1px;
 }
 span {
-	color: white;
+	color: indianred;
+	text-decoration: underline;
 }
 .navheader {
 	background-color: #333333;
@@ -211,6 +212,70 @@ margin-top: 50%;
 	font-family: calibri;
 }
 
+.logincontainer {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 800px;
+    height: 950px;
+	background-color: grey;
+	/*background-image: url("loginbkg.jpg");*/
+	background-size: 100%;
+}
+
+
+.loginmainbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	
+	
+	width: 500px;
+	height: 500px;
+}
+
+#eyeslash{
+	font-size: large;
+	color:grey;
+}
+
+.loginbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*border:solid 1px grey;*/
+}
+
+.loginbox2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: inherit;
+	/*border:solid 1px grey;*/
+}
+
+.loginavatar {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+
+}
+
+.loginbutton{
+   width:100%;
+}
+
+a{
+	color:indianred;
+
+}
+
+
 /*Media Queries*/
 @media ( max-width: 750px;) {
 	.img{
@@ -224,7 +289,8 @@ margin-top: 50%;
 	padding: 15px 15px;
 	float: left;*/
 	width: 100%;
-	}
+}
+
 .contactbox {
 	/*display: inline-block;
 	padding: 2px;
@@ -232,24 +298,45 @@ margin-top: 50%;
 	background-color: grey;*/
 	width: 100%;
 	}
+
 #contactheader {
 	/*display: block;
 	color: white;
 	text-align: center;
 	font-family: calibri;*/
 	width: 100%;
-    }
+}
+
 label{
 	width: auto;
 }
+
 input{
 	display: block;
 	width: auto;
 }
-}
 
+
+}
 @media ( max-width: 1125px; ) {
 	.profilepic {
 	 	display: none;
 	}
+}
+
+
+.passblock{
+ width: inherit;
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ margin-left: 15px;
+}
+
+.loginmaincontainer{
+	/*display:flex;
+	flex-direction: row;
+	align-items: center;
+
 }
