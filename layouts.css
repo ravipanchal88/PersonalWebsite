@@ -185,6 +185,16 @@ margin-top: 50%;
 	height: 250px;
 	border: solid 2px grey;
 }
+
+.loginimg {
+	display: inline-block;
+
+	width: 500px;
+	height: 500px;
+	
+}
+
+
 .tile {
  margin:5px 10%;
 }
@@ -307,6 +317,10 @@ a{
 	width: 100%;
 }
 
+.box123 {
+	display: none;
+}
+
 label{
 	width: auto;
 }
@@ -318,10 +332,14 @@ input{
 
 
 }
-@media ( max-width: 1125px; ) {
+@media ( max-width: 1500px; ) {
 	.profilepic {
 	 	display: none;
 	}
+
+	.box123 {
+	display: none;
+}
 }
 
 
